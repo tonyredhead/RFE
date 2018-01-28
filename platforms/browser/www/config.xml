@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.red360tutorail.Pedro" version="1.0.0" versionCode="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Pedro</name>
+<widget id="com.red360tutorail.RFE" version="1.0.0" versionCode="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>RFE</name>
     <description>
-        French Street Artist
+        Russian Far East
     </description>
     <author email="tony@tonyredhead.com" href="http://tonyredhead.com">
         Tony Redhead

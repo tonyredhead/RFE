@@ -5,7 +5,9 @@
 <title>Swiper demo</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
-<link rel="stylesheet" href="swiper.min.css">
+
+<link href="swiper.min.css" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
 
 <style>
 	html, body {
@@ -14,7 +16,6 @@
 	}
 	body {
 	background: #eee;
-	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	color:#000;
 	margin: 0;
@@ -44,13 +45,17 @@
 	background-position: center;
 	}
 	.swiper-slide .title {
+	font-family: "Ovink-Regular";
 	font-size: 30px;
 	font-weight: 300;
 	}
 	.swiper-slide .subtitle {
+	font-family: "Ovink-Regular";
 	font-size: 18px;
 	}
 	.swiper-slide .text {
+	padding-top: 5px;
+	font-family: "Ovink-Light";
 	font-size: 14px;
 	max-width: 400px;
 	line-height: 1.3;
@@ -64,6 +69,7 @@
 <div class="swiper-slide" style="background-image:url(slideshow/volcanic-plug.jpg)">
 	<div class="title" data-swiper-parallax="-300">Volcanic Plug</div>
 	<div class="subtitle" data-swiper-parallax="-200">Atlasova</div>
+	<div class="text" data-swiper-parallax="-200">An island in the Kuril Island chain just south of Kamchatka</div>
 </div>
 <div class="swiper-slide" style="background-image:url(slideshow/peter.jpg)">
 	<div class="title" data-swiper-parallax="-300">Pieter de Vries</div>
