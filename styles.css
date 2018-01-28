@@ -1,0 +1,30 @@
+/*
+* - Local Fonts -
+*/
+@font-face {
+		font-family: 'Ovink-Light';
+		src: url('Ovink-Light.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+		}
+@font-face {
+		font-family: 'Ovink-Medium';
+		src: url('Ovink-Medium') format('woff');
+		font-weight: normal;
+		font-style: normal;
+		}
+@font-face {
+		font-family: 'Ovink-Regular';
+		src: url('Ovink-Regular.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+		}
+/*
+* - Local Fonts -
+*/
+
+.info_header{           
+            font-family: "Ovink-Medium";
+            font-size: 16px;
+            color: red;
+            }

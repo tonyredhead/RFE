@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama apprev="16570" id="node1" appversion="6.0 alpha">
+  <input overlap="1" levelingroll="0" levelingpitch="0" width="2000" height="2000" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+    <level width="2000" predecode="0" height="2000" preload="0"/>
+    <level width="1000" predecode="0" height="1000" preload="0"/>
+    <level width="500" predecode="1" height="500" preload="1"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view pannorth="260" fovmode="0">
+    <start pan="152.54" projection="4" tilt="-15.95" fov="84.7"/>
+    <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+    <min pan="0" fovpixel="2" tilt="-90"/>
+    <max pan="360" scaletofit="1" tilt="90" fov="120" fovfisheye="360" fovstereographic="270"/>
+  </view>
+  <userdata info="" tags="Equi" description="" comment="" longitude="155.66476822" customnodeid="" copyright="" datetime="6/6/12 3:10 PM" title="" latitude="50.84426711" source="" author=""/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label textcolor="0x000000" border="1" bordercolor="0x000000" wordwrap="1" width="180" borderalpha="1" height="20" background="1" backgroundcolor="0xffffff" enabled="1" borderradius="1" backgroundalpha="1" textalpha="1"/>
+    <polystyle bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" handcursor="1"/>
+  </hotspots>
+  <media/>
+  <transition zoomin="0" zoomout="0" enabled="0" zoomoutpause="1" type="crossdissolve" softedge="0" blendtime="1" zoomspeed="2" blendcolor="0x000000" zoomfov="20"/>
+  <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+  <control dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" rubberband="0" contextprojections="0" simulatemass="1" invertwheel="0" speedwheel="1" lockedwheel="0" sensitivity="8"/>
+</panorama>

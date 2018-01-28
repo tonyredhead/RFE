@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Swiper demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="swiper.min.css">
+
+<style>
+	html, body {
+	position: relative;
+	height: 100%;
+	}
+	body {
+	background: #eee;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color:#000;
+	margin: 0;
+	padding: 0;
+	}
+	.swiper-container {
+	width: 100%;
+	height: 100%;
+	}
+	.swiper-slide {
+	background-position: center;
+	background-size: cover;
+	font-size: 18px;
+	color:#fff;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 40px 60px;
+	}
+	.parallax-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 130%;
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	}
+	.swiper-slide .title {
+	font-size: 30px;
+	font-weight: 300;
+	}
+	.swiper-slide .subtitle {
+	font-size: 18px;
+	}
+	.swiper-slide .text {
+	font-size: 14px;
+	max-width: 400px;
+	line-height: 1.3;
+	}
+  </style>
+</head>
+<body>
+
+<div class="swiper-container">
+<div class="swiper-wrapper">
+<div class="swiper-slide" style="background-image:url(slideshow/volcanic-plug.jpg)">
+	<div class="title" data-swiper-parallax="-300">Volcanic Plug</div>
+	<div class="subtitle" data-swiper-parallax="-200">Atlasova</div>
+</div>
+<div class="swiper-slide" style="background-image:url(slideshow/peter.jpg)">
+	<div class="title" data-swiper-parallax="-300">Pieter de Vries</div>
+	<div class="subtitle" data-swiper-parallax="-200">Cinematographer</div>
+</div>
+<div class="swiper-slide" style="background-image:url(slideshow/nick.jpg)">
+	<div class="title" data-swiper-parallax="-300">Nick Rains</div>
+	<div class="subtitle" data-swiper-parallax="-200">Photographer</div>
+</div>
+<div class="swiper-slide" style="background-image:url(slideshow/tony.jpg)">
+	<div class="title" data-swiper-parallax="-300">Tony Redhead</div>
+	<div class="subtitle" data-swiper-parallax="-200">Photographer</div>
+</div>
+<div class="swiper-slide" style="background-image:url(slideshow/photoshoot.jpg)">
+	<div class="title" data-swiper-parallax="-300">USA</div>
+	<div class="subtitle" data-swiper-parallax="-200">Photographer</div>
+</div>
+</div>
+
+<div class="swiper-pagination swiper-pagination-white"></div>
+
+<div class="swiper-button-next swiper-button-white"></div>
+<div class="swiper-button-prev swiper-button-white"></div>
+</div>
+
+<script src="swiper.min.js"></script>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      effect: 'fade',
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>
